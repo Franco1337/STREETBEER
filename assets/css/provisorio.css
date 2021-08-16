@@ -1,0 +1,395 @@
+
+
+h1
+{
+    color: rgb(0, 0, 0);
+}
+
+
+#TituloPrincipal
+{
+    margin-right: auto;
+    margin-left: auto;
+    
+
+    color: rgb(4, 19, 7);
+    background-color: rgb(207, 197, 162);
+    width: 600px;
+    border: 1px;
+    border-radius: 5px;
+    animation-duration: 0.5s;
+    animation-name: aparecerTitulos;
+}
+
+#tipos
+{
+    color: rgb(4, 19, 7);
+    background-color: rgb(207, 197, 162);
+    width: 600px;
+    height: 50px;
+    border: 1px;
+    border-radius: 5px;
+    animation-duration: 0.5s;
+    animation-name: aparecerTitulos;
+}
+#shop
+{
+    color: rgb(4, 19, 7);
+    background-color: rgb(207, 197, 162);
+    width: 600px;
+    height: 50px;
+    border: 1px;
+    border-radius: 5px;
+    animation-duration: 0.5s;
+    animation-name: aparecerTitulos;
+}
+
+#fabricacion
+{
+    color: rgb(4, 19, 7);
+    background-color: rgb(207, 197, 162);
+    width: 600px;
+    height: 50px;
+    border: 1px;
+    border-radius: 5px;
+    animation-duration: 0.5s;
+    animation-name: aparecerTitulos;
+}
+
+@keyframes aparecerTitulos {
+    0% 
+    {
+      opacity: 1;
+      transform: rotateY(70deg);
+
+    }
+    50%
+    {
+      opacity: 1;
+      font-size: 15px;
+    }
+ }
+
+
+
+/* Links */
+a:link
+{
+    color: rgb(25, 110, 25);
+}
+a:visited
+{
+    color: rgb(7, 48, 7);
+}
+a:hover
+{
+    color: rgb(43, 160, 43);
+}
+
+
+/*  Cajas  */
+
+body
+{
+    font-size: 18px;
+    font-family: 'Texturina', serif;
+    /* Fondo */
+    background-image: url("../../img/fond.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color:transparent;
+    
+    overflow: auto;
+}
+
+
+#Musica
+{
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:transparent;
+
+}
+
+#Musica p
+{
+    font-size: 12px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(206, 168, 86);
+    text-shadow: rgb(119, 81, 10);
+    border-radius: 5px; 
+    font-weight: bold;
+}
+
+#Musica audio
+{
+    font-size: 12px;
+    width: 250px;
+}
+
+#sociales
+{
+    padding-left: 20px;
+    padding-top: 0px;
+    background-color: rgb(206, 168, 86);
+    border-radius: 5px;
+
+}
+#sociales p
+{
+    width: 100px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+
+
+
+/* Seccion INDEX */
+
+
+#ShopBeerIndex
+{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% 
+    {
+      opacity: 0;
+    }
+    50%
+    {
+      opacity: 0,5;
+      font-size: 15px;
+    }
+}
+
+ 
+/* Seccion intermedia */
+#Intermedio
+{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0%;
+    padding-bottom: 100px;
+    border:hidden;
+    width: 600px;
+    height: 255px;  
+}
+
+
+/* Grid Index */
+
+#ImgVistaGridPadre
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1px;
+}
+#ImgGridHijo
+{ 
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    grid-column: 1 / span 1;
+}
+
+
+/* Seccion pie */
+#InfoPie
+{
+    background-color: transparent;
+}
+#InfoPie h6 
+{  
+    color: white;
+    width: 600px;
+    height: 5px; 
+    padding-top: 120px;
+    position: absolute;
+}
+
+
+/* Seccion TIPOS DE CERVEZA */
+
+
+#ListaTC section ol
+{
+    color: rgb(3, 61, 3);
+    background-color: rgb(185, 174, 144);
+    border: 1px;
+    border-radius: 5px;
+    color: rgb(32, 24, 11);
+}
+
+#ListaTC
+{
+    width: 600px;
+}
+
+/* Seccion FABRICACION */
+
+#TituloF
+{
+    width: 600px;
+    padding-top: 5px;
+}
+
+
+#imgFabricacion
+{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+/* Grid de fabricacion */
+#PasosFabricacion 
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+/* PASOS */
+
+#Paso1
+{
+    font-size: 15px;
+    color: rgb(2, 8, 2);
+    background-color: rgb(208, 214, 198);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    padding: 20px;
+}
+
+#Paso2
+{
+    font-size: 15px;
+    color: rgb(2, 8, 2);
+    background-color: rgb(208, 214, 198);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    padding: 20px;
+}
+
+
+#Paso3
+{
+    font-size: 15px;
+    color: rgb(2, 8, 2);
+    background-color: rgb(208, 214, 198);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    padding: 20px;
+}
+
+#Paso4
+{
+    font-size: 15px;
+    color: rgb(2, 8, 2);
+    background-color: rgb(208, 214, 198);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    padding: 20px;
+}
+
+#Paso5
+{
+    font-size: 15px;
+    color: rgb(2, 8, 2);
+    background-color: rgb(208, 214, 198);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    padding: 20px;
+}
+
+#Paso6
+{
+    font-size: 15px;
+    color: rgb(2, 8, 2);
+    background-color: rgb(208, 214, 198);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    padding: 20px;
+}
+
+#Paso7
+{
+    font-size: 15px;
+    color: rgb(2, 8, 2);
+    background-color: rgb(208, 214, 198);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 1;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+/* Seccion SHOPBEER */
+
+#TituloSB
+{
+    width: 600px;
+    padding-top: 5px;
+}
+
+#TituloSB h6
+{
+    width: 600px;
+    padding-top: 5px;
+}
+#TituloSB #CervezaDisponibleTit
+{
+    background-color: rgb(208, 214, 198);
+    border-radius: 5px;
+}
+#ListaSB section ol
+{
+    margin: auto;
+    color: rgb(3, 61, 3);
+    background-color: rgb(185, 174, 144);
+    border: 1px;
+    border-radius: 5px;
+    color: rgb(32, 24, 11);
+}
+
+#ListaSB
+{
+    width: 600px;
+}
+#ImgCual
+{
+    padding-left: 100px;
+}
+
+/* Seccion SHOPBEER -> Formulario compra */
+
+#FormCompraCss
+{
+    width: 600px;
+    padding-top: 5px;
+    
+}

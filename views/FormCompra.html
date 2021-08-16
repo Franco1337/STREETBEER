@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../assets/css/estilos.css" type="text/css"> 
+</head>
+
+<body id="fondo">
+    <div class="FormCompraCss">
+        <header>
+            <a class="VolverShop" href="ShopBeer.html"> Volver al SHOPBEER!</a>
+        </header>
+      
+        <p id="monto">Monto a pagar: $</p>
+        
+        <!-------------------------Caja/s de Ingreso/s----------------------------->
+    <form class="formcompra">
+            <legend> Proceso de pago </legend>
+                
+                <label for="nombrefirst">Nombre: </label>
+                <br>
+                <input type="text" id="nombre" name="nombre">
+                <br><br>
+
+                <label for="lastname">Apellido: </label>
+                <br>
+                <input type="text" id="apellido" name="apellido">
+                <br><br>
+
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                
+                <label for = "tipo"> Tipo: </label>
+                <select name="cantidad" id="cantidad">
+                    <option value=1> Lata 473ml </option>
+                    <option value=2> Botella 360ml </option>
+                    <option value=3> Botella 900ml </option>
+                    <option value=5> Glower 2L </option>
+                </select>
+
+                
+                <label for = "cantidad"> Cantidad: </label>
+                <select name="tipo:" id="tipo">
+                    <option value=1> 1 </option>
+                    <option value=2> 2 </option>
+                    <option value=3> 3 </option>
+                    <option value=5> Mas de 5 </option>
+                    
+                </select>
+                <p> Si llevas mas de 6 latas, tenes un 10% off!</p>
+                
+                <br><br>
+                <label for="eleccion">¿Te lo enviamos o lo pasas a retirar?</label>
+                <br>
+                    <input type="radio" id="Local" value="Local">
+                    <label for="Local">Paso a retirar</label>
+                <br>
+                    <input type="radio" id="Envio" value="Envio">
+                    <label for="Envio">Envienmela!.</label>
+                <br><br>
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="5" placeholder="Indicanos la direccion"></textarea>
+                <br><br>
+                
+                    <label for="ofertas">Quieres recibir un email con nuestras ofertas?</label>
+                    <input type="checkbox" id="a" name="a">
+                <br><br><br>    
+                
+                <input type="submit" value="Completar compra">
+                <br><br>
+                <input type="reset" value="limpiar formulario">
+        </form>
+    </div>
+
+    <p>...Texto e informacion de la factura...</p>
+
+    
+    <!---------------------------pie de pagina--------------------------------->
+    <div class="InfoPie">
+        <footer>
+            <h6>Ubicacion y Contacto: Av.hola Calle 23 San Jose. - 15123456 Todos los Derechos Reservados</h6>
+        </footer>
+    </div>
+</body>
+</html>
